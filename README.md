@@ -1,6 +1,3 @@
-# OpenProject Deploy
+# OpenProject SalesPanthera Version Deploy
 
-Recipes and examples for deploying OpenProject.
-
-* [Docker Compose](./compose/)
-* [Kubernetes](./kubernetes/)
+- For docker deploy -> Go to /compose
