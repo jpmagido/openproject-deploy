@@ -16,14 +16,14 @@ Make sure you are using the latest version of the Docker images:
 
 Copy the example `.env` file and edit any values you want to change:
 
-    cp .env.example .env
-    vim .env
+    cp .env.example .env.prod
+    vim .env.prod
 
 ## PRODUCTION
 
 ## Docker Compose commands
 
-    $ `docker-compose up --env-file .env.prod -d`  
+    $ `docker-compose --env-file .env.prod up -d`  
     $ `docker-compose down`
 
 ## DEVELOPMENT
