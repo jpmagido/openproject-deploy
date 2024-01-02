@@ -19,10 +19,20 @@ Copy the example `.env` file and edit any values you want to change:
     cp .env.example .env
     vim .env
 
+## PRODUCTION
+
 ## Docker Compose commands
 
-    $ `docker-compose up -d`  
+    $ `docker-compose up --env-file .env.prod -d`  
     $ `docker-compose down`
+
+## DEVELOPMENT
+
+## Docker Compose commands
+
+    $ `OPENPROJECT_HTTPS=false OPENPROJECT_HSTS=false docker-compose -f docker-compose.yml --env-file .env.dev up -d`  
+    $ `docker-compose down`
+
 
 ## Logs
 
